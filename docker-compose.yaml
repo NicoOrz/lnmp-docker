@@ -29,7 +29,7 @@ services:
     networks:
       - lnmp-network
     environment:
-      - MYSQL_ROOT_PASSWORD="huawei123."
+      - MYSQL_ROOT_PASSWORD="supersafepassword"
       - MYSQL_ROOT_HOST="172.18.0.*"
 networks:
   lnmp-network:
